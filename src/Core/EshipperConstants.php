@@ -13,7 +13,7 @@ class EshipperConstants
 
   const SDK_NAME = 'Eshipper-PHP-SDK';
 
-  const SDK_VERSION = '1.0.0';
+  const SDK_VERSION = '1.0.1';
 
   const REST_LIVE_ENDPOINT = "https://ww2.eshipper.com";
   const REST_SANDBOX_ENDPOINT = "https://uu2.eshipper.com";

@@ -237,14 +237,14 @@ class QuoteRequest extends EshipperModel
     return $this->stackable;
   }
 
-  public function setServiceID($serviceID)
+  public function setServiceId($serviceId)
   {
-    $this->serviceID = $serviceID;
+    $this->serviceId = $serviceId;
     return $this;
   }
 
-  public function getServiceID()
+  public function getServiceId()
   {
-    return $this->serviceID;
+    return $this->serviceId;
   }
 }
