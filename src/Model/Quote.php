@@ -64,7 +64,7 @@ class Quote extends EshipperModel
   /**
    * @return $this
    */
-  public function setModeTransport()
+  public function setModeTransport($modeTransport)
   {
     $this->modeTransport = $modeTransport;
     return $this;
