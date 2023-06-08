@@ -33,6 +33,9 @@ class EshipperConnectionException extends \Exception
    */
   public function setData($data)
   {
+    if (!is_array($data)) {
+      $data = json_decode($data, true);
+    }
     $this->data = $data;
   }
 
