@@ -60,15 +60,37 @@ class ShippingRequest extends \Davidflypei\Eshipper\Common\EshipperModel
     return $this->packages;
   }
 
-  public function setReference($reference)
+  public function setReference1($reference)
   {
-    $this->reference = $reference;
+    $this->reference1 = $reference;
     return $this;
   }
 
-  public function getReference()
+  public function getReference1()
   {
-    return $this->reference;
+    return $this->reference1;
+  }
+
+  public function setReference2($reference)
+  {
+    $this->reference2 = $reference;
+    return $this;
+  }
+
+  public function getReference2()
+  {
+    return $this->reference2;
+  }
+
+  public function setReference3($reference)
+  {
+    $this->reference3 = $reference;
+    return $this;
+  }
+
+  public function getReference3()
+  {
+    return $this->reference3;
   }
 
   public function setSignatureRequired($signatureRequired)
