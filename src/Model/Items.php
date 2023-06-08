@@ -29,7 +29,7 @@ class Items extends EshipperModel
    * @param $item
    * @return $this
    */
-  public function addPackage($item)
+  public function addItem($item)
   {
     if (!$this->getItems()) {
       return $this->setItems(array($item));
