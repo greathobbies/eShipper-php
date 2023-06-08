@@ -29,7 +29,7 @@ class Item extends EshipperModel
     return $this->desciption;
   }
 
-  public function originCountry($originCountry)
+  public function setOriginCountry($originCountry)
   {
     $this->originCountry = $originCountry;
     return $this;
