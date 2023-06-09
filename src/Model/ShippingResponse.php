@@ -126,7 +126,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Common\EshipperModel
+   * @return \Davidflypei\Eshipper\Model\LabelData
    */
   public function getLabelData()
   {
