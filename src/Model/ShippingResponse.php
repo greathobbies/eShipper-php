@@ -18,7 +18,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\OrderDetails
+   * @return \Davidflypei\Eshipper\Model\Order
    */
   public function getOrder()
   {
