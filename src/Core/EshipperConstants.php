@@ -17,6 +17,6 @@ class EshipperConstants
 
   const REST_LIVE_ENDPOINT = "https://ww2.eshipper.com";
   const REST_SANDBOX_ENDPOINT = "https://uu2.eshipper.com";
-  
+
   const METADATA_LOCATION = __DIR__ . '/../Metadata/';
 }
