@@ -18,15 +18,15 @@ class Item extends EshipperModel
     return $this->hsnCode;
   }
 
-  public function setDesciption($desciption)
+  public function setDescription($description)
   {
-    $this->desciption = $desciption;
+    $this->description = $description;
     return $this;
   }
 
-  public function getDesciption()
+  public function getDescription()
   {
-    return $this->desciption;
+    return $this->description;
   }
 
   public function setOriginCountry($originCountry)
