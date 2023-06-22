@@ -15,7 +15,7 @@ class CarrierMetadata extends \Davidflypei\Eshipper\Common\EshipperMetadataModel
       $this->metadataFilename = 'carriersSandMetadata.json';
     }
 
-    $data = $this->loadMetadata(EshipperConstants::METADATA_LOCATION . '/' . $this->metadataFilename);
+    $data = $this->loadMetadata(dirname(__FILE__) . EshipperConstants::METADATA_LOCATION . '/' . $this->metadataFilename);
 
     parent::__construct($data);
   }
