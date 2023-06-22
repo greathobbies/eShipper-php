@@ -8,21 +8,21 @@ class Items extends EshipperModel
 {
 
   /**
-   * @param $items
+   * @param $item
    * @return $this
    */
-  public function setItems($items)
+  public function setItem($item)
   {
-    $this->items = $items;
+    $this->item = $item;
     return $this;
   }
 
   /**
    * @return \Davidflypei\Eshipper\Model\Item[]
    */
-  public function getItems()
+  public function getItem()
   {
-    return $this->items;
+    return $this->item;
   }
 
   /**
@@ -31,11 +31,11 @@ class Items extends EshipperModel
    */
   public function addItem($item)
   {
-    if (!$this->getItems()) {
-      return $this->setItems(array($item));
+    if (!$this->getItem()) {
+      return $this->setItem(array($item));
     } else {
-      return $this->setItems(
-        array_merge($this->getItems(), array($item))
+      return $this->setItem(
+        array_merge($this->getItem(), array($item))
       );
     }
   }
@@ -46,8 +46,8 @@ class Items extends EshipperModel
    */
   public function removeItem($item)
   {
-    return $this->setItems(
-      array_diff($this->getItems(), array($item))
+    return $this->setItem(
+      array_diff($this->getItem(), array($item))
     );
   }
 
