@@ -154,7 +154,7 @@ class Quote extends EshipperModel
    * @param $surcharges
    * @return $this
    */
-  public function setsurcharges($surcharges)
+  public function setSurcharges($surcharges)
   {
     $this->surcharges = $surcharges;
     return $this;
@@ -163,7 +163,7 @@ class Quote extends EshipperModel
   /**
    * @return \Davidflypei\Eshipper\Model\Surcharge
    */
-  public function getsurcharges()
+  public function getSurcharges()
   {
     return $this->surcharges;
   }
