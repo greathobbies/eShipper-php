@@ -144,7 +144,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Common\EshipperModel
+   * @return \Davidflypei\Eshipper\Model\CustomsInvoice
    */
   public function getCustomsInvoice()
   {
