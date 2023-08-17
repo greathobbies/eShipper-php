@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
 class ShipToAddress extends Address
 {

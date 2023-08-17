@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class OrderDetails extends \Davidflypei\Eshipper\Common\EshipperModel
+class OrderDetails extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   /**
@@ -16,7 +16,7 @@ class OrderDetails extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Carrier
+   * @return \Greathobbies\Eshipper\Model\Carrier
    */
   public function getCarrier()
   {
@@ -34,7 +34,7 @@ class OrderDetails extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\ShipFromAddress
+   * @return \Greathobbies\Eshipper\Model\ShipFromAddress
    */
   public function getFrom()
   {
@@ -52,7 +52,7 @@ class OrderDetails extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\ShipToAddress
+   * @return \Greathobbies\Eshipper\Model\ShipToAddress
    */
   public function getTo()
   {
@@ -70,7 +70,7 @@ class OrderDetails extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Packages
+   * @return \Greathobbies\Eshipper\Model\Packages
    */
   public function getPackages()
   {

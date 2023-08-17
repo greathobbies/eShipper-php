@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Log;
+namespace Greathobbies\Eshipper\Log;
 
 use Psr\Log\LoggerInterface;
 

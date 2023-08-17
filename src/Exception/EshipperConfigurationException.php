@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Exception;
+namespace Greathobbies\Eshipper\Exception;
 
 class EshipperConfigurationException extends \Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Security;
+namespace Greathobbies\Eshipper\Security;
 
 /**
  * Class Cipher

@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Common\EshipperModel;
+use Greathobbies\Eshipper\Common\EshipperModel;
 
 class Items extends EshipperModel
 {
@@ -18,7 +18,7 @@ class Items extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Item[]
+   * @return \Greathobbies\Eshipper\Model\Item[]
    */
   public function getItem()
   {

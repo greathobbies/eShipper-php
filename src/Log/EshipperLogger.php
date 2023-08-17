@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Log;
+namespace Greathobbies\Eshipper\Log;
 
-use Davidflypei\Eshipper\Core\EshipperConfigManager;
+use Greathobbies\Eshipper\Core\EshipperConfigManager;
 use Psr\Log\AbstractLogger;
 use Psr\Log\LogLevel;
 

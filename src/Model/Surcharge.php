@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class Surcharge extends \Davidflypei\Eshipper\Common\EshipperModel
+class Surcharge extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   public function setName($name)

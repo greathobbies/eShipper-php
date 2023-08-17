@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Common;
+namespace Greathobbies\Eshipper\Common;
 
 /**
  * Class EshipperUserAgent

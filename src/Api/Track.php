@@ -1,9 +1,9 @@
 <?php
 
-namespace Davidflypei\Eshipper\Api;
+namespace Greathobbies\Eshipper\Api;
 
-use Davidflypei\Eshipper\Common\EshipperResourceModel;
-use Davidflypei\Eshipper\Model\TrackingResponse;
+use Greathobbies\Eshipper\Common\EshipperResourceModel;
+use Greathobbies\Eshipper\Model\TrackingResponse;
 
 class Track extends EshipperResourceModel
 {

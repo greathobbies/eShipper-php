@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Core;
+namespace Greathobbies\Eshipper\Core;
 
 /**
  * Class EshipperConstants

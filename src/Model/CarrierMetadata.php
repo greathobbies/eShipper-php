@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Core\EshipperConstants;
+use Greathobbies\Eshipper\Core\EshipperConstants;
 
-class CarrierMetadata extends \Davidflypei\Eshipper\Common\EshipperMetadataModel
+class CarrierMetadata extends \Greathobbies\Eshipper\Common\EshipperMetadataModel
 {
   private $metadataFilename = 'carriersLiveMetadata.json';
 

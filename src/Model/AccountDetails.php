@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class AccountDetails extends \Davidflypei\Eshipper\Common\EshipperModel
+class AccountDetails extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   public function setContactName($contactName)

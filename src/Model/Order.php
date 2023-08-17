@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class Order extends \Davidflypei\Eshipper\Common\EshipperModel
+class Order extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Common\EshipperModel;
+use Greathobbies\Eshipper\Common\EshipperModel;
 
 class Quote extends EshipperModel
 {
@@ -161,7 +161,7 @@ class Quote extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Surcharge
+   * @return \Greathobbies\Eshipper\Model\Surcharge
    */
   public function getSurcharges()
   {
@@ -215,7 +215,7 @@ class Quote extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Surcharge
+   * @return \Greathobbies\Eshipper\Model\Surcharge
    */
   public function getTaxes()
   {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Davidflypei\Eshipper\Api;
+namespace Greathobbies\Eshipper\Api;
 
-use Davidflypei\Eshipper\Common\EshipperResourceModel;
-use Davidflypei\Eshipper\Model\QuoteResponse;
-use Davidflypei\Eshipper\Validation\ArgumentValidator;
-use Davidflypei\Eshipper\Model\Quote;
+use Greathobbies\Eshipper\Common\EshipperResourceModel;
+use Greathobbies\Eshipper\Model\QuoteResponse;
+use Greathobbies\Eshipper\Validation\ArgumentValidator;
+use Greathobbies\Eshipper\Model\Quote;
 
 class Quotes extends EshipperResourceModel
 {

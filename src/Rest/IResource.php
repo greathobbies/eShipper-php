@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Rest;
+namespace Greathobbies\Eshipper\Rest;
 
 interface IResource
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Davidflypei\Eshipper\Cache;
+namespace Greathobbies\Eshipper\Cache;
 
-use Davidflypei\Eshipper\Core\EshipperConfigManager;
-use Davidflypei\Eshipper\Validation\JsonValidator;
+use Greathobbies\Eshipper\Core\EshipperConfigManager;
+use Greathobbies\Eshipper\Validation\JsonValidator;
 
 abstract class AuthorizationCache
 {

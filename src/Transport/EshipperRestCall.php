@@ -1,11 +1,11 @@
 <?php
 
-namespace Davidflypei\Eshipper\Transport;
+namespace Greathobbies\Eshipper\Transport;
 
-use Davidflypei\Eshipper\Core\EshipperHttpConfig;
-use Davidflypei\Eshipper\Core\EshipperHttpConnection;
-use Davidflypei\Eshipper\Core\EshipperLoggingManager;
-use Davidflypei\Eshipper\Rest\ApiContext;
+use Greathobbies\Eshipper\Core\EshipperHttpConfig;
+use Greathobbies\Eshipper\Core\EshipperHttpConnection;
+use Greathobbies\Eshipper\Core\EshipperLoggingManager;
+use Greathobbies\Eshipper\Rest\ApiContext;
 
 class EshipperRestCall
 {

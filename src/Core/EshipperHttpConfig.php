@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Core;
+namespace Greathobbies\Eshipper\Core;
 
-use Davidflypei\Eshipper\Exception\EshipperConfigurationException;
+use Greathobbies\Eshipper\Exception\EshipperConfigurationException;
 
 class EshipperHttpConfig
 {

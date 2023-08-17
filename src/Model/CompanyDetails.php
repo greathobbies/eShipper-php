@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class CompanyDetails extends \Davidflypei\Eshipper\Model\Address
+class CompanyDetails extends \Greathobbies\Eshipper\Model\Address
 {
 
   public function setCompanyName($companyName)

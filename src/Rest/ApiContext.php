@@ -1,9 +1,9 @@
 <?php
 
-namespace Davidflypei\Eshipper\Rest;
+namespace Greathobbies\Eshipper\Rest;
 
-use Davidflypei\Eshipper\Core\EshipperConfigManager;
-use Davidflypei\Eshipper\Core\EshipperCredentialManager;
+use Greathobbies\Eshipper\Core\EshipperConfigManager;
+use Greathobbies\Eshipper\Core\EshipperCredentialManager;
 
 class ApiContext
 {

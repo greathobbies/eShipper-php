@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Common;
+namespace Greathobbies\Eshipper\Common;
 
-use Davidflypei\Eshipper\Exception\EshipperConfigurationException;
+use Greathobbies\Eshipper\Exception\EshipperConfigurationException;
 
 class ReflectionUtil
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Handler;
+namespace Greathobbies\Eshipper\Handler;
 
 /**
  * Interface IEshipperHandler

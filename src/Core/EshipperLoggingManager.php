@@ -1,11 +1,11 @@
 <?php
 
-namespace Davidflypei\Eshipper\Core;
+namespace Greathobbies\Eshipper\Core;
 
-use Davidflypei\Eshipper\Log\EshipperLogFactory;
-use Davidflypei\Eshipper\Log\EshipperDefaultLogFactory;
+use Greathobbies\Eshipper\Log\EshipperLogFactory;
+use Greathobbies\Eshipper\Log\EshipperDefaultLogFactory;
 use Psr\Log\LoggerInterface;
-use Davidflypei\Eshipper\Core\EshipperConfigManager;
+use Greathobbies\Eshipper\Core\EshipperConfigManager;
 
 class EshipperLoggingManager
 {
@@ -27,7 +27,7 @@ class EshipperLoggingManager
   {
     $config = EshipperConfigManager::getInstance()->getConfigHashmap();
     // Checks if custom factory defined, and is it an implementation of @EshipperLogFactory
-    $factory = array_key_exists('log.AdapterFactory', $config) && in_array('\Davidflypei\Eshipper\Log\EshipperLogFactory', class_implements($config['log.AdapterFactory'])) ? $config['log.AdapterFactory'] : '\Davidflypei\Eshipper\Log\EshipperDefaultLogFactory';
+    $factory = array_key_exists('log.AdapterFactory', $config) && in_array('\Greathobbies\Eshipper\Log\EshipperLogFactory', class_implements($config['log.AdapterFactory'])) ? $config['log.AdapterFactory'] : '\Greathobbies\Eshipper\Log\EshipperDefaultLogFactory';
     /** @var EshipperLogFactory $factoryInstance */
     $factoryInstance = new $factory();
     $this->logger = $factoryInstance->getLogger($loggerName);

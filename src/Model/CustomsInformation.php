@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class CustomsInformation extends \Davidflypei\Eshipper\Common\EshipperModel
+class CustomsInformation extends \Greathobbies\Eshipper\Common\EshipperModel
 {
   /**
    * @param $contact
@@ -15,7 +15,7 @@ class CustomsInformation extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Contact
+   * @return \Greathobbies\Eshipper\Model\Contact
    */
   public function getContact()
   {
@@ -33,7 +33,7 @@ class CustomsInformation extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Items
+   * @return \Greathobbies\Eshipper\Model\Items
    */
   public function getItems()
   {
@@ -51,7 +51,7 @@ class CustomsInformation extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\DutiesTaxes
+   * @return \Greathobbies\Eshipper\Model\DutiesTaxes
    */
   public function getDutiesTaxes()
   {
@@ -69,7 +69,7 @@ class CustomsInformation extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Address
+   * @return \Greathobbies\Eshipper\Model\Address
    */
   public function getBillingAddress()
   {

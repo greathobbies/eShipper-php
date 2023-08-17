@@ -1,5 +1,5 @@
 {
-    "name": "davidflypei/eshipper-php",
+    "name": "greathobbies/eshipper-php",
     "description": "A composer package for eShipper",
     "type": "library",
     "require": {
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Davidflypei\\Eshipper\\": "src/"
+            "Greathobbies\\Eshipper\\": "src/"
         }
     },
     "authors": [

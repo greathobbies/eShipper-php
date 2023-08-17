@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
 use JsonSchema\Iterator\ObjectIterator;
 
-class TrackingResponse extends \Davidflypei\Eshipper\Common\EshipperModel
+class TrackingResponse extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   /**
@@ -36,7 +36,7 @@ class TrackingResponse extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\ShipmentTrackingDetails[]
+   * @return \Greathobbies\Eshipper\Model\ShipmentTrackingDetails[]
    */
   public function getTrackingDetails()
   {
@@ -54,7 +54,7 @@ class TrackingResponse extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Common\EshipperModel
+   * @return \Greathobbies\Eshipper\Common\EshipperModel
    */
   public function getStatus()
   {
@@ -72,7 +72,7 @@ class TrackingResponse extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\OrderDetails
+   * @return \Greathobbies\Eshipper\Model\OrderDetails
    */
   public function getOrderDetails()
   {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class CustomsInvoice extends \Davidflypei\Eshipper\Common\EshipperModel
+class CustomsInvoice extends \Greathobbies\Eshipper\Common\EshipperModel
 {
   /**
    * @param $type

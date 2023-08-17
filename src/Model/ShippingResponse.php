@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Common\EshipperModel;
+use Greathobbies\Eshipper\Common\EshipperModel;
 
 class ShippingResponse extends EshipperModel
 {
@@ -18,7 +18,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Order
+   * @return \Greathobbies\Eshipper\Model\Order
    */
   public function getOrder()
   {
@@ -36,7 +36,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Carrier
+   * @return \Greathobbies\Eshipper\Model\Carrier
    */
   public function getCarrier()
   {
@@ -54,7 +54,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Common\EshipperModel
+   * @return \Greathobbies\Eshipper\Common\EshipperModel
    */
   public function getReference()
   {
@@ -72,7 +72,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Packages
+   * @return \Greathobbies\Eshipper\Model\Packages
    */
   public function getPackages()
   {
@@ -126,7 +126,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\LabelData
+   * @return \Greathobbies\Eshipper\Model\LabelData
    */
   public function getLabelData()
   {
@@ -144,7 +144,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\CustomsInvoice
+   * @return \Greathobbies\Eshipper\Model\CustomsInvoice
    */
   public function getCustomsInvoice()
   {
@@ -162,7 +162,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Common\EshipperModel
+   * @return \Greathobbies\Eshipper\Common\EshipperModel
    */
   public function getPickup()
   {
@@ -198,7 +198,7 @@ class ShippingResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Quote
+   * @return \Greathobbies\Eshipper\Model\Quote
    */
   public function getQuote()
   {

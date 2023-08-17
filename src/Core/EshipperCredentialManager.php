@@ -1,9 +1,9 @@
 <?php
 
-namespace Davidflypei\Eshipper\Core;
+namespace Greathobbies\Eshipper\Core;
 
-use Davidflypei\Eshipper\Auth\AuthTokenCredential;
-use Davidflypei\Eshipper\Exception\EshipperInvalidCredentialException;
+use Greathobbies\Eshipper\Auth\AuthTokenCredential;
+use Greathobbies\Eshipper\Exception\EshipperInvalidCredentialException;
 
 class EshipperCredentialManager
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Core\EshipperConstants;
+use Greathobbies\Eshipper\Core\EshipperConstants;
 
-class CarrierServicesMetadata extends \Davidflypei\Eshipper\Common\EshipperMetadataModel
+class CarrierServicesMetadata extends \Greathobbies\Eshipper\Common\EshipperMetadataModel
 {
 
   private $metadataFilename = 'carrierServicesLiveMetadata.json';
@@ -32,7 +32,7 @@ class CarrierServicesMetadata extends \Davidflypei\Eshipper\Common\EshipperMetad
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\CarrierServiceMetadata[]
+   * @return \Greathobbies\Eshipper\Model\CarrierServiceMetadata[]
    */
   public function getCarrierServices()
   {

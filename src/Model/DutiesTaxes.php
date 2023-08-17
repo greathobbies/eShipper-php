@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class DutiesTaxes extends \Davidflypei\Eshipper\Common\EshipperModel
+class DutiesTaxes extends \Greathobbies\Eshipper\Common\EshipperModel
 {
   /**
    * @param $dutiable

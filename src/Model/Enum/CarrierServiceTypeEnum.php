@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model\Enum;
+namespace Greathobbies\Eshipper\Model\Enum;
 
 class CarrierServiceTypeEnum
 {

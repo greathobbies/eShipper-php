@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Common;
+namespace Greathobbies\Eshipper\Common;
 
-use Davidflypei\Eshipper\Model;
+use Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Auth\AuthTokenCredential;
+use Greathobbies\Eshipper\Auth\AuthTokenCredential;
 
 /**
  * Generic Model class that all other classes extend

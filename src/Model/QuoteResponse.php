@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Common\EshipperModel;
+use Greathobbies\Eshipper\Common\EshipperModel;
 
 class QuoteResponse extends EshipperModel
 {
@@ -36,7 +36,7 @@ class QuoteResponse extends EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Quote
+   * @return \Greathobbies\Eshipper\Model\Quote
    */
   public function getQuotes()
   {

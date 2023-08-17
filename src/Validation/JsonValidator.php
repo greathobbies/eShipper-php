@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidflypei\Eshipper\Validation;
+namespace Greathobbies\Eshipper\Validation;
 
 /**
  * Class JsonValidator

@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Common;
+namespace Greathobbies\Eshipper\Common;
 
-use Davidflypei\Eshipper\Validation\JsonValidator;
+use Greathobbies\Eshipper\Validation\JsonValidator;
 
 class EshipperMetadataModel
 {

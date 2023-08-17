@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class ShippingRequest extends \Davidflypei\Eshipper\Common\EshipperModel
+class ShippingRequest extends \Greathobbies\Eshipper\Common\EshipperModel
 {
 
   public function setScheduledShipDate($scheduledShipDate)

@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-use Davidflypei\Eshipper\Core\EshipperConstants;
+use Greathobbies\Eshipper\Core\EshipperConstants;
 
-class CarrierServiceMetadata extends \Davidflypei\Eshipper\Common\EshipperMetadataModel
+class CarrierServiceMetadata extends \Greathobbies\Eshipper\Common\EshipperMetadataModel
 {
 
   /**
@@ -360,7 +360,7 @@ class CarrierServiceMetadata extends \Davidflypei\Eshipper\Common\EshipperMetada
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\CarrierMetadata
+   * @return \Greathobbies\Eshipper\Model\CarrierMetadata
    */
   public function getCarrierDTO()
   {

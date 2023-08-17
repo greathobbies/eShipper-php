@@ -3,16 +3,16 @@
  * API handler for all REST API calls
  */
 
-namespace Davidflypei\Eshipper\Handler;
+namespace Greathobbies\Eshipper\Handler;
 
-use Davidflypei\Eshipper\Auth\AuthTokenCredential;
-use Davidflypei\Eshipper\Common\EshipperUserAgent;
-use Davidflypei\Eshipper\Core\EshipperConstants;
-use Davidflypei\Eshipper\Core\EshipperCredentialManager;
-use Davidflypei\Eshipper\Core\EshipperHttpConfig;
-use Davidflypei\Eshipper\Exception\EshipperConfigurationException;
-use Davidflypei\Eshipper\Exception\EshipperInvalidCredentialException;
-use Davidflypei\Eshipper\Exception\EshipperMissingCredentialException;
+use Greathobbies\Eshipper\Auth\AuthTokenCredential;
+use Greathobbies\Eshipper\Common\EshipperUserAgent;
+use Greathobbies\Eshipper\Core\EshipperConstants;
+use Greathobbies\Eshipper\Core\EshipperCredentialManager;
+use Greathobbies\Eshipper\Core\EshipperHttpConfig;
+use Greathobbies\Eshipper\Exception\EshipperConfigurationException;
+use Greathobbies\Eshipper\Exception\EshipperInvalidCredentialException;
+use Greathobbies\Eshipper\Exception\EshipperMissingCredentialException;
 
 /**
  * Class RestHandler

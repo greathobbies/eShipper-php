@@ -1,10 +1,10 @@
 <?php
 
-namespace Davidflypei\Eshipper\Common;
+namespace Greathobbies\Eshipper\Common;
 
-use Davidflypei\Eshipper\Rest\ApiContext;
-use Davidflypei\Eshipper\Rest\IResource;
-use Davidflypei\Eshipper\Transport\EshipperRestCall;
+use Greathobbies\Eshipper\Rest\ApiContext;
+use Greathobbies\Eshipper\Rest\IResource;
+use Greathobbies\Eshipper\Transport\EshipperRestCall;
 
 class EshipperResourceModel extends EshipperModel implements IResource
 {
@@ -49,7 +49,7 @@ class EshipperResourceModel extends EshipperModel implements IResource
     );
   }
 
-  protected static function executeCall($url, $method, $payLoad, $headers = array(), $apiContext = null, $restCall = null, $handlers = array('Davidflypei\Eshipper\Handler\RestHandler'))
+  protected static function executeCall($url, $method, $payLoad, $headers = array(), $apiContext = null, $restCall = null, $handlers = array('Greathobbies\Eshipper\Handler\RestHandler'))
   {
     //Initialize the context and rest call object if not provided explicitly
     $apiContext = $apiContext ? $apiContext : new ApiContext(self::$credential);

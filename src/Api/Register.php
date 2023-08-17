@@ -1,24 +1,24 @@
 <?php
 
-namespace Davidflypei\Eshipper\Api;
+namespace Greathobbies\Eshipper\Api;
 
-use Davidflypei\Eshipper\Cache\AuthorizationCache;
-use Davidflypei\Eshipper\Core\EshipperHttpConfig;
-use Davidflypei\Eshipper\Core\EshipperHttpConnection;
-use Davidflypei\Eshipper\Core\EshipperLoggingManager;
-use Davidflypei\Eshipper\Exception\EshipperConfigurationException;
-use Davidflypei\Eshipper\Exception\EshipperConnectionException;
-use Davidflypei\Eshipper\Handler\IEshipperHandler;
-use Davidflypei\Eshipper\Rest\ApiContext;
-use Davidflypei\Eshipper\Security\Cipher;
+use Greathobbies\Eshipper\Cache\AuthorizationCache;
+use Greathobbies\Eshipper\Core\EshipperHttpConfig;
+use Greathobbies\Eshipper\Core\EshipperHttpConnection;
+use Greathobbies\Eshipper\Core\EshipperLoggingManager;
+use Greathobbies\Eshipper\Exception\EshipperConfigurationException;
+use Greathobbies\Eshipper\Exception\EshipperConnectionException;
+use Greathobbies\Eshipper\Handler\IEshipperHandler;
+use Greathobbies\Eshipper\Rest\ApiContext;
+use Greathobbies\Eshipper\Security\Cipher;
 
-class Register extends \Davidflypei\Eshipper\Common\EshipperResourceModel
+class Register extends \Greathobbies\Eshipper\Common\EshipperResourceModel
 {
 
   /**
    * @var string Default Auth Handler
    */
-  public static $AUTH_HANDLER = 'Davidflypei\Eshipper\Handler\AuthHandler';
+  public static $AUTH_HANDLER = 'Greathobbies\Eshipper\Handler\AuthHandler';
 
   public function register($accountDetails, $companyDetails, $promoCode = null, $apiContext = null, $restCall = null)
   {

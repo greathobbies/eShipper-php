@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Model;
+namespace Greathobbies\Eshipper\Model;
 
-class LabelData extends \Davidflypei\Eshipper\Common\EshipperModel
+class LabelData extends \Greathobbies\Eshipper\Common\EshipperModel
 {
   /**
    * @param $label
@@ -15,7 +15,7 @@ class LabelData extends \Davidflypei\Eshipper\Common\EshipperModel
   }
 
   /**
-   * @return \Davidflypei\Eshipper\Model\Label[]
+   * @return \Greathobbies\Eshipper\Model\Label[]
    */
   public function getLabel()
   {

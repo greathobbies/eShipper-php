@@ -1,8 +1,8 @@
 <?php
 
-namespace Davidflypei\Eshipper\Api;
+namespace Greathobbies\Eshipper\Api;
 
-class Shipment extends \Davidflypei\Eshipper\Common\EshipperResourceModel
+class Shipment extends \Greathobbies\Eshipper\Common\EshipperResourceModel
 {
 
   public function setType($type)
@@ -53,7 +53,7 @@ class Shipment extends \Davidflypei\Eshipper\Common\EshipperResourceModel
       $apiContext,
       $restCall
     );
-    $shippingResponse = new \Davidflypei\Eshipper\Model\ShippingResponse();
+    $shippingResponse = new \Greathobbies\Eshipper\Model\ShippingResponse();
     $shippingResponse->fromJson($json);
     return $shippingResponse;
   }
